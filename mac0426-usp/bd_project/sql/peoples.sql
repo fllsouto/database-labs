@@ -1,0 +1,12 @@
+INSERT INTO people (nickname, email, pname, mname, lname) VALUES ('fsouto', 'fellipe.s@gmail.com','Fellipe', 'Souto', 'Sampaio');
+INSERT INTO people (nickname, email, pname, mname, lname) VALUES ('Risky Galaxy','redaqyssuk@gmail.com','Marcelo ','Othello ','Tito');
+INSERT INTO people (nickname, email, pname, mname, lname) VALUES ('Cutie Wolf','whitesquirrel@gmail.com','Vitória ','Palmira ','Lalage');
+INSERT INTO people (nickname, email, pname, mname, lname) VALUES ('subtan','RyanCostaRodrigues@armyspy.com ','Ryan','Costa','Rodrigues');
+INSERT INTO people (nickname, email, pname, mname, lname) VALUES ('Bantais','DaniloMartinsPereira@dayrep.com ','Danilo','Martins','Pereira');
+INSERT INTO people (nickname, email, pname, mname, lname) VALUES ('Fromed1939','MarcosRochaAlves@armyspy.com ','Marcos','Rocha','Alves');
+INSERT INTO people (nickname, email, pname, mname, lname) VALUES ('Werater','LeticiaAzevedoSantos@dayrep.com ','Letícia','Azevedo','Santos');
+INSERT INTO people (nickname, email, pname, mname, lname) VALUES ('Amed1963','LuisGoncalvesSantos@rhyta.com','Luis ','Goncalves','Santos');
+INSERT INTO people (nickname, email, pname, mname, lname) VALUES ('Bellyn','MarinaSouzaRocha@jourrapide.com','Marina','Souza','Rocha');
+INSERT INTO people (nickname, email, pname, mname, lname) VALUES ('Whown1969','KaiSouzaCardoso@rhyta.com','Kai','Souza','Cardoso');
+INSERT INTO people (nickname, email, pname, mname, lname) VALUES ('Miscacer','JulianPereiraCorreia@rhyta.com','Julian','Pereira','Correia');
+INSERT INTO people (nickname, email, pname, mname, lname) VALUES ('Becter','GabrielleRibeiroSousa@dayrep.com ','Gabrielle','Ribeiro','Sousa');
