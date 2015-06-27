@@ -55,12 +55,6 @@ photos = [
   },  
   {
     fingerprint: '',
-    creator: 'Whowm1969',
-    type: "IMAGE",
-    url: "https://s3.amazonaws.com/uifaces/faces/twitter/tonychester/128.jpg"
-  },
-  {
-    fingerprint: '',
     creator: 'Miscacer',
     type: "IMAGE",
     url: "https://s3.amazonaws.com/uifaces/faces/twitter/uxceo/128.jpg"

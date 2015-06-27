@@ -33,7 +33,7 @@ contacts = [
   {
     contact_id: 9,
     host: 'Risky Galaxy',
-    guest: 'Whowm1969'
+    guest: 'Whown1969'
   },
   {
     contact_id: 12,

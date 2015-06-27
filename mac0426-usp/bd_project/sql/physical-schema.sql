@@ -1,4 +1,14 @@
+-- MAC0426 - Database System - Final Project
+-- Professor : Dr. Jose Eduardo Ferreira
+-- Created by : Fellipe Souto Sampaio
+-- Usp Num : 7990422
+-- Computer Science Student - Universidade de Sao Paulo (Brazil)
+--
+-- Por favor execute esse script nessa ordem
+
 CREATE DATABASE paper_plane;
+
+-- Apos criar o banco conect-se a ele
 
 CREATE TABLE people(
   id        SERIAL       NOT NULL,
@@ -17,7 +27,7 @@ CREATE TABLE people(
 CREATE TABLE invitation(
   id              SERIAL        NOT NULL,
   status          VARCHAR(20),
-  invited_at    TIMESTAMP,
+  invited_at      TIMESTAMP,
   guest_nickname  VARCHAR(30)   NOT NULL,
   PRIMARY KEY (id),
   FOREIGN KEY (guest_nickname)  REFERENCES people(nickname)
@@ -27,7 +37,7 @@ CREATE TABLE invitation(
 -- ACTIVE
 -- WAITING
 -- INACTIVE
-CREATE TABLE contacts(
+CREATE TABLE contact(
   id              SERIAL        NOT NULL,
   invitation_id   INTEGER       NOT NULL,
   host_nickname   VARCHAR(30)   NOT NULL,
@@ -46,7 +56,7 @@ CREATE TABLE conversation(
   guest_nickname  VARCHAR(30) NOT NULL,
   created_at      TIMESTAMP   NOT NULL,
   PRIMARY KEY (id),
-  FOREIGN KEY (contact_id) REFERENCES contacts(id)
+  FOREIGN KEY (contact_id) REFERENCES contact(id)
 );
 
 CREATE TABLE message(

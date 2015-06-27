@@ -108,9 +108,9 @@ invites.each do |invite|
       ended_at = (contact_status == "INACTIVE") ? (accepted_at + 100) : nil
       puts "INSERT INTO invitation (status,invited_at,guest_nickname) VALUES('#{status}','#{accepted_at}' ,'#{guest}');";
       if !ended_at.nil?
-        puts "INSERT INTO contacts (invitation_id,host_nickname,guest_nickname,status,ended_at) VALUES('#{indx_counter}', '#{host}', '#{guest}', '#{contact_status}', '#{ended_at}');"
+        puts "INSERT INTO contact (invitation_id,host_nickname,guest_nickname,status,ended_at) VALUES('#{indx_counter}', '#{host}', '#{guest}', '#{contact_status}', '#{ended_at}');"
       else
-        puts "INSERT INTO contacts (invitation_id,host_nickname,guest_nickname,status,ended_at) VALUES('#{indx_counter}', '#{host}', '#{guest}', '#{contact_status}', NULL);"
+        puts "INSERT INTO contact (invitation_id,host_nickname,guest_nickname,status,ended_at) VALUES('#{indx_counter}', '#{host}', '#{guest}', '#{contact_status}', NULL);"
       end
       indx_counter = indx_counter + 1
     end
